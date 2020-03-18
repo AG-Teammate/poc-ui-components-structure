@@ -7,7 +7,7 @@ export const HeaderDesktop: React.FC<{ headerProps: IHeaderProps }> = observer(f
     //const profileDropdownOpen = headerProps.
 
     return <div>
-        M:{headerProps.text}
+        D:{headerProps.text}
         <span className={"right"}>
             {headerProps.userInfo && headerProps.menuProps &&
             <span style={{float: "right"}}>

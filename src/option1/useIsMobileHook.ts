@@ -1,7 +1,7 @@
 // @ts-ignore
-import { useMediaQuery } from 'react-responsive'
+import {useMediaQuery} from 'react-responsive'
 
-const useIsMobileHook = () => {
+const useIsMobileHook: () => boolean = () => {
     return useMediaQuery({
         query: '(max-width: 600px)' //todo what is a good threshold? use max-device-width?
     })
