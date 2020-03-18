@@ -8,5 +8,6 @@ store.practiceCardProps = new PracticeCardState();
 store.gettingStartedCardProps = new GettingStartedCardState(store);
 
 export const WrappedDashboardExperience: React.FC = () => {
+
     return <DashboardExperience dashboardExperienceProps={store}/>
 };
